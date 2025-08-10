@@ -23,9 +23,8 @@ if __name__ == "__main__":
     
     # Instantiate the OutReachAutomation class
     automation = OutReachAutomation(lead_loader)
-    app = automation.app
+    app= automation.app
     
-    # initial graph inputs:
     # Lead ids to be processed, leave empty to fetch all news leads
     inputs = {"leads_ids": []}
 
